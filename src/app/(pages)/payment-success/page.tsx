@@ -1,16 +1,10 @@
 "use client";
 
-import { useMemo } from "react";
+import { Suspense, useMemo } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-
-// Next.js port of Payments/PaymentSuccess.jsx.
-// Same success UI; package name / amount read from PayFast return_url
-// query params (item_name, amount). react-router useLocation →
-// useSearchParams. Suspense boundary recommended by Next when using
-// useSearchParams on a static page — wrap export below if needed.
 
 const SUCCESS_IMAGE =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdr1DMONakU9MUecTXVHg290MknEaXlFRhrA&s";
@@ -75,22 +69,15 @@ function PaymentSuccessContent() {
 }
 
 export default function PaymentSuccessPage() {
-  // Next.js requires a Suspense boundary around components that call
-  // useSearchParams during static render. If your layout already wraps
-  // pages in Suspense you can export PaymentSuccessContent directly.
-  return <PaymentSuccessContent />;
+  return (
+    <Suspense
+      fallback={
+        <div className="flex min-h-screen items-center justify-center bg-gradient-to-r from-black to-white">
+          <p className="text-white">Loading…</p>
+        </div>
+      }
+    >
+      <PaymentSuccessContent />
+    </Suspense>
+  );
 }
-
-// export default function PaymentSuccessPage() {
-//   return (
-//     <Suspense
-//       fallback={
-//         <div className="flex min-h-screen items-center justify-center bg-gradient-to-r from-black to-white">
-//           <p className="text-white">Loading…</p>
-//         </div>
-//       }
-//     >
-//       <PaymentSuccessContent />
-//     </Suspense>
-//   );
-// }
