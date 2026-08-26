@@ -12,7 +12,7 @@ export type OriginalProject = {
 const originalProjects: OriginalProject[] = [
   {
     href: "https://business-plan-ai-ten.vercel.app/",
-    title: "Project 20: Find anything",
+    title: "Project 20: Business Plan Generator AI",
     description:
       "Create a business plan simple or complicated, let AI generate your beautiful business plan with a URL to share to anyone and also download the plan",
     shortDescription:
