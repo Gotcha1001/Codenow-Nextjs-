@@ -11,6 +11,16 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://curriculum-builder-ai-wes.vercel.app/",
+    title: "Project 20: Curriculum AI builder",
+    description:
+      "Create any skill or education curriculum builder from beginner to advanced and get a planned curriculum to follow to master your desired skill, also allocate the number of hours you have a week for this, and download your pdf plan, whether it be to become a plumber or a pianist",
+    shortDescription:
+      "Create any skill or education curriculum builder from beginner to advanced and get a planned curriculum to follow to master your desired skill, also allocate the number of hours you have a week for this, and download your pdf plan, whether it be to become a plumber or a pianist",
+    imageUrl: "/images/curriculum.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://business-plan-ai-ten.vercel.app/",
     title: "Project 20: Business Plan Generator AI",
     description:
