@@ -11,6 +11,16 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://earth-watch-ai.vercel.app/",
+    title: "Project 20: Earth Watch AI",
+    description:
+      "Cron jobs run every 5 minutes and detect natural disasters in the earth and lists them, with AI inteilligence to detect the severity of the disaster and the location, and a link to the news article about it, and a link to the map of the location",
+    shortDescription:
+      "Cron jobs run every 5 minutes to detect natural disasters so we can notify people if evacuation is needed, and satelite images of the location and a link to the news article about it, and a link to the map of the location",
+    imageUrl: "/images/earth.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://curriculum-builder-ai-wes.vercel.app/",
     title: "Project 20: Curriculum AI builder",
     description:
