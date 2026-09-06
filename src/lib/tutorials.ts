@@ -1,5 +1,13 @@
 const tutorials = [
   {
+    href: "https://quiz-liard-one.vercel.app/",
+    title: "Project 1: Quiz",
+    description: "Quizes of many topics",
+    shortDescription: "Quizes of many topics and results page and graphs",
+    imageUrl: "/images/quiz.jpg",
+    alt: "WesleyTech Shop",
+  },
+  {
     href: "https://lo-fi-iota.vercel.app/",
     title: "Project 1: Lo-Fi",
     description: "Lo-Fi",
