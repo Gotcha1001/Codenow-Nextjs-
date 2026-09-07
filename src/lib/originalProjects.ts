@@ -11,6 +11,16 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://english-debate.vercel.app/",
+    title: "Project 20: Earth Watch AI",
+    description:
+      "For online English teachers generate Free Talking questions for discussion and debate or generate comprehension stories and multiple choice questions and finally a grammar analysis at the end, verb, adverb etc...",
+    shortDescription:
+      "For online English teachers generate Free Talking questions for discussion and debate or generate comprehension stories and multiple choice questions and finally a grammar analysis at the end, verb, adverb etc...",
+    imageUrl: "/images/english.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://earth-watch-ai.vercel.app/",
     title: "Project 20: Earth Watch AI",
     description:
