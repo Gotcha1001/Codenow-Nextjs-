@@ -12,7 +12,7 @@ export type OriginalProject = {
 const originalProjects: OriginalProject[] = [
   {
     href: "https://english-debate.vercel.app/",
-    title: "Project 20: Earth Watch AI",
+    title: "Project 20: English Helper AI Free Talk Question Generator",
     description:
       "For online English teachers generate Free Talking questions for discussion and debate or generate comprehension stories and multiple choice questions and finally a grammar analysis at the end, verb, adverb etc...",
     shortDescription:
