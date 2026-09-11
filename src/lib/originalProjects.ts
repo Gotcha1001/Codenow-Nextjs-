@@ -11,6 +11,17 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://clairty-ai-finance.vercel.app/",
+    title:
+      "Project 20: Finance advisor and counsellor AI genius observations and advice",
+    description:
+      "Finance advisor and counsellor AI genius observations and advice",
+    shortDescription:
+      "Finance advisor and counsellor AI genius observations and advice",
+    imageUrl: "/images/clarity.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://english-debate.vercel.app/",
     title: "Project 20: English Helper AI Free Talk Question Generator",
     description:
