@@ -11,6 +11,16 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://news-scrape-app.vercel.app/",
+    title: "Project 20: News Scrape",
+    description:
+      "Get the daily news refreshed everyday after 24 hours the top stories displayed in todays page and a archieve page for the previous days with an image if possible and links to the actual news",
+    shortDescription:
+      "Get the Daily News instead of subscribing to Reuters news",
+    imageUrl: "/images/news.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://clairty-ai-finance.vercel.app/",
     title:
       "Project 20: Finance advisor and counsellor AI genius observations and advice",
