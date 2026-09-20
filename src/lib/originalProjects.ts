@@ -37,7 +37,7 @@ const originalProjects: OriginalProject[] = [
     description:
       "For online English teachers generate Free Talking questions for discussion and debate or generate comprehension stories and multiple choice questions and finally a grammar analysis at the end, verb, adverb etc...",
     shortDescription:
-      "For online English teachers generate Free Talking questions for discussion and debate or generate comprehension stories and multiple choice questions and finally a grammar analysis at the end, verb, adverb etc...",
+      "For online English teachers generate Free Talking questions for discussion and debate or generate comprehension stories and multiple choice questions and finally a grammar analysis at the end, verb, adverb etc..., also a picture description page",
     imageUrl: "/images/english.jpg",
     alt: "AI CV",
   },
