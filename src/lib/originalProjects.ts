@@ -11,6 +11,16 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://resort-bookings-git-01-fix-wes-projects-3b3f8366.vercel.app/",
+    title: "Project 20: Bookings For Resorts Hotels",
+    description:
+      "A Website for a resort or hotel to handle bookings, payments and monthly earnings, cancellations etc...",
+    shortDescription:
+      "A Website for a resort or hotel to handle bookings, payments and monthly earnings, cancellations etc...",
+    imageUrl: "/images/resort.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://news-scrape-app.vercel.app/",
     title: "Project 20: News Scrape",
     description:
