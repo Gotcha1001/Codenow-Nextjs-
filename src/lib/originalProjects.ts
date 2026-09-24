@@ -11,7 +11,7 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
-    href: "https://resort-bookings-git-01-fix-wes-projects-3b3f8366.vercel.app/",
+    href: "https://resort-bookings.vercel.app/",
     title: "Project 20: Bookings For Resorts Hotels",
     description:
       "A Website for a resort or hotel to handle bookings, payments and monthly earnings, cancellations etc...",
@@ -48,7 +48,7 @@ const originalProjects: OriginalProject[] = [
       "For online English teachers generate Free Talking questions for discussion and debate or generate comprehension stories and multiple choice questions and finally a grammar analysis at the end, verb, adverb etc...",
     shortDescription:
       "For online English teachers generate Free Talking questions for discussion and debate or generate comprehension stories and multiple choice questions and finally a grammar analysis at the end, verb, adverb etc..., also a picture description page",
-    imageUrl: "/images/english.jpg",
+    imageUrl: "/images/englishs.jpg",
     alt: "AI CV",
   },
   {
