@@ -11,6 +11,16 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://fit-girls.vercel.app/",
+    title: "Project 20: Online Sexy Video Chat",
+    description:
+      "Find a sexy girl to talk to and look at in a video call or chat",
+    shortDescription:
+      "Find someone you think is sexy, book a call and have fun",
+    imageUrl: "/images/fitgirls.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://dating-site-beta.vercel.app/",
     title: "Project 20: Dating Site",
     description: "Find someone, near you",
