@@ -12,12 +12,12 @@ export type OriginalProject = {
 const originalProjects: OriginalProject[] = [
   {
     href: "https://fit-girls.vercel.app/",
-    title: "Project 20: Online Sexy Video Chat",
+    title: "Project 20: FitGirls Sexy Video Chat",
     description:
       "Find a sexy girl to talk to and look at in a video call or chat",
     shortDescription:
       "Find someone you think is sexy, book a call and have fun",
-    imageUrl: "/images/fitgirls.jpg",
+    imageUrl: "/images/fit.jpg",
     alt: "AI CV",
   },
   {
