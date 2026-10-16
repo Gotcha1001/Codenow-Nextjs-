@@ -11,6 +11,15 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://kids-ai-projects.vercel.app/",
+    title: "Project 20: Projects for school University",
+    description:
+      "Generate a project for any topic or scientific explanation with images and bibliography and introductory, body and conclusion",
+    shortDescription: "Generate projects for school or work or University AI",
+    imageUrl: "/images/projects.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://fit-girls.vercel.app/",
     title: "Project 20: FitGirls Sexy Video Chat",
     description:
