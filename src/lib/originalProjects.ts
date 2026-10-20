@@ -11,6 +11,16 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://spicy-entertainment.vercel.app/",
+    title: "Project 20: Book a live show",
+    description:
+      "Want entertainment for a braai or party, book a show from the many gifted and talented performers",
+    shortDescription:
+      "Want entertainment for a braai or party, book a show from the many gifted and talented performers",
+    imageUrl: "/images/show.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://fit-girls-crypto.vercel.app/",
     title: "Project 20: Video calls with hot girls payment with Crypto",
     description: "Video calls with hot girls payment with Crypto",
