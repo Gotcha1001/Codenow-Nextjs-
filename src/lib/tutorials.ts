@@ -1,5 +1,14 @@
 const tutorials = [
   {
+    href: "https://resume-ai-three-tan.vercel.app/",
+    title: "Project 1: Resume AI",
+    description: "Do a quiz, mock interviews, using AI voices",
+    shortDescription:
+      "Do a quiz, mock interviews, using AI voices, analyze your resume and get tips on how to make it stand out better",
+    imageUrl: "/images/resume.jpg",
+    alt: "WesleyTech Shop",
+  },
+  {
     href: "https://quiz-liard-one.vercel.app/",
     title: "Project 1: Quiz",
     description: "Quizes of many topics",
