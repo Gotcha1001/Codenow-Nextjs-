@@ -1,5 +1,14 @@
 const tutorials = [
   {
+    href: "https://realestate-tau-puce.vercel.app/",
+    title: "Project 1: NextProperties",
+    description: "Property Website",
+    shortDescription:
+      "Upload images of a property and set a price, rent or Buy, Search functionality and email",
+    imageUrl: "/images/property.jpg",
+    alt: "WesleyTech Shop",
+  },
+  {
     href: "https://resume-ai-three-tan.vercel.app/",
     title: "Project 1: Resume AI",
     description: "Do a quiz, mock interviews, using AI voices",
