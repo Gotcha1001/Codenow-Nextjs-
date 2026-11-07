@@ -1,5 +1,14 @@
 const tutorials = [
   {
+    href: "https://ai-text-and-image.vercel.app/",
+    title: "Project 1: NextGPT",
+    description: "AI image prompt and text",
+    shortDescription:
+      "AI image prompt and text, download your images and chats",
+    imageUrl: "/images/nextgpt.jpg",
+    alt: "WesleyTech Shop",
+  },
+  {
     href: "https://realestate-tau-puce.vercel.app/",
     title: "Project 1: NextProperties",
     description: "Property Website",
