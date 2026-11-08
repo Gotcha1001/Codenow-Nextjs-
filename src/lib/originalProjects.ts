@@ -11,6 +11,16 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://dream-interpretation-ai-app.vercel.app/",
+    title: "Project 20: Dreams Interpretations",
+    description:
+      "Give a little of your background, and then enter a dream you had and let AI desern the physcology behind your dreams",
+    shortDescription:
+      "Give a little of your background, and then enter a dream you had and let AI desern the physcology behind your dreams",
+    imageUrl: "/images/dreams.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://kids-ai-projects.vercel.app/",
     title: "Project 20: AI Projects create",
     description:
