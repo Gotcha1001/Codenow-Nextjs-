@@ -11,6 +11,16 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://jones-in-the-next-lane.vercel.app/",
+    title: "Project 20: Jones In The Next Zone",
+    description:
+      "Remake of Jones in the fast lane with a twist and online lobby players can play from all over the world",
+    shortDescription:
+      "Remake of Jones in the fast lane with a twist and online lobby players can play from all over the world",
+    imageUrl: "/images/jones.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://dream-interpretation-ai-app.vercel.app/",
     title: "Project 20: Dreams Interpretations",
     description:
