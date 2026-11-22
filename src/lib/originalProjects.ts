@@ -11,6 +11,16 @@ export type OriginalProject = {
 // /original-projects page's project grid.
 const originalProjects: OriginalProject[] = [
   {
+    href: "https://ai-song-writer.vercel.app/",
+    title: "Project 20: Song Writer AI generate chords, lyrics and a melody",
+    description:
+      "Song Writer AI generate chords, lyrics and a melody, print to PDF and download the midi if wanted.",
+    shortDescription:
+      "Song Writer AI generate chords, lyrics and a melody, print to PDF and download the midi if wanted.",
+    imageUrl: "/images/song.jpg",
+    alt: "AI CV",
+  },
+  {
     href: "https://jones-in-the-next-lane.vercel.app/",
     title: "Project 20: Jones In The Next Zone",
     description:
