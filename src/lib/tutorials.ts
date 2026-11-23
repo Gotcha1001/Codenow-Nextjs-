@@ -1,5 +1,14 @@
 const tutorials = [
   {
+    href: "https://grocery-ecommerce-blush.vercel.app/",
+    title: "Project 1: AI Groceries Cart",
+    description: "AI Grocery cart, with admin functionality",
+    shortDescription:
+      "AI Grocery Cart with uploading products, setting prices, and getting AI advice on what to buy to cook your desired meals",
+    imageUrl: "/images/groceries.jpg",
+    alt: "WesleyTech Shop",
+  },
+  {
     href: "https://ai-text-and-image.vercel.app/",
     title: "Project 1: NextGPT",
     description: "AI image prompt and text",
